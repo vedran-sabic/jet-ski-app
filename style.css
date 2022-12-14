@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url("./images/jet-ski.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+button {
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#add-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#reset-btn {
+    background: darkblue;
+}
